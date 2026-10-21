@@ -6,10 +6,22 @@ This repository contains our work for the Next-Generation AI course at ESILV.
 
 The goal is to evaluate how reliably different language models generate SQL queries. We compare their answers with reference results calculated directly from a SQLite database.
 
+
 ## Team
 
-- Subgroup: To be added
-- Members: To be added
+**Class:** DIA 5  
+**Subgroup:** 2
+
+### Members
+
+- FERHAT Jawed
+- PONS-BOUREGBA Roman
+- MAITREHENRY Hugo
+- SIMON Alvina
+- HENNOUCHE Yanice
+- HAMOURI Badis
+- IMGHI Fatima
+
 
 ## TD1: Evaluating Language Models
 
