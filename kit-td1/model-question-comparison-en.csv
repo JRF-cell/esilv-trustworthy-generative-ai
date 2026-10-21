@@ -1,1 +1,101 @@
 case_id,model_id,trace_file,cell_id,nature,status,value_cents,reference_cents,explanation
+C01,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C01,real,correct,792800,792800,
+C02,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C02,real,correct,590320,590320,
+C03,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C03,real,correct,936350,936350,
+C04,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C04,real,correct,2826250,2826250,
+C05,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C05,real,correct,38480,38480,
+C06,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C06,real,correct,0,0,
+C07,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C07,real,correct,13970,13970,
+C08,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C08,real,correct,605580,605580,
+C09,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C09,real,correct,487980,487980,
+C10,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C10,real,correct,558980,558980,
+C11,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C11,real,correct,446690,446690,
+C12,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C12,real,correct,1666490,1666490,
+C13,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C13,real,correct,107740,107740,
+C14,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C14,real,correct,0,0,
+C15,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C15,real,correct,168680,168680,
+C16,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C16,real,correct,376740,376740,
+C17,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C17,real,correct,258180,258180,
+C18,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C18,real,correct,62480,62480,
+C19,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C19,real,correct,1990,1990,
+C20,groq:openai/gpt-oss-120b,traces-A-new.csv,groq:openai/gpt-oss-120b:C20,real,correct,1106090,1106090,
+C01,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C01,real,correct,792800,792800,
+C02,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C02,real,incorrect,0,590320,Wrong birth-year interval: filters customers born in 2025-2026 rather than those born after 2000-09-25 and on/before 2001-09-25. The query selects no 25-year-olds.
+C03,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C03,real,correct,936350,936350,
+C04,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C04,real,correct,2826250,2826250,
+C05,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C05,real,correct,38480,38480,
+C06,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C06,real,correct,0,0,
+C07,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C07,real,correct,13970,13970,
+C08,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C08,real,incorrect,25920,605580,Filters only the single birth date 2001-09-24 instead of the full eligible one-year birth-date interval. It counts only customers having their 25th birthday that day.
+C09,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C09,real,correct,487980,487980,
+C10,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C10,real,correct,558980,558980,
+C11,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C11,real,correct,446690,446690,
+C12,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C12,real,correct,1666490,1666490,
+C13,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C13,real,correct,107740,107740,
+C14,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C14,real,correct,0,0,
+C15,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C15,real,correct,168680,168680,
+C16,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C16,real,correct,376740,376740,
+C17,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C17,real,correct,258180,258180,
+C18,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C18,real,correct,62480,62480,
+C19,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C19,real,correct,1990,1990,
+C20,groq:openai/gpt-oss-20b,traces-B.csv,groq:openai/gpt-oss-20b:C20,real,correct,1106090,1106090,
+C01,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C01,real,correct,792800,792800,
+C02,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C02,real,sql_invalid,,590320,SQL syntax error: AS age is incorrectly placed inside a CAST expression in WHERE. The expression also fails to subtract birth year from reference year to calculate age.
+C03,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C03,real,correct,936350,936350,
+C04,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C04,real,correct,2826250,2826250,
+C05,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C05,real,correct,38480,38480,
+C06,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C06,real,correct,0,0,
+C07,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C07,real,correct,13970,13970,
+C08,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C08,real,incorrect,0,605580,Age arithmetic is reversed (birth_year - 2026 = 25); the correct calculation uses reference_year - birth_year with a birthday adjustment. This rejects all intended customers.
+C09,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C09,real,incorrect,0,487980,Compares reference dates in 2026 directly with birth dates using inconsistent AND/OR conditions instead of testing the 25-year-old birth-date interval; the conditions do not identify eligible customers.
+C10,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C10,real,sql_invalid,,558980,SQL syntax error: malformed nested CAST expressions and unmatched parentheses in the age-at-order predicate.
+C11,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C11,real,incorrect,0,446690,"Age arithmetic is reversed (birth_year - 2026 = 25) instead of 2026 - birth_year minus the birthday adjustment, so the intended customers are excluded."
+C12,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C12,real,correct,1666490,1666490,
+C13,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C13,real,correct,107740,107740,
+C14,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C14,real,correct,0,0,
+C15,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C15,real,correct,168680,168680,
+C16,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C16,real,correct,376740,376740,
+C17,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C17,real,incorrect,371990,258180,Birth-date upper bound is incorrectly 2026-09-25 instead of 2001-09-25. The filter includes younger customers who are not 25 on the reference date.
+C18,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C18,real,correct,62480,62480,
+C19,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C19,real,incorrect,0,1990,"Attempts arithmetic on YYYY-MM-DD text and divides date differences by 10000, generating nonsensical year offsets. It should check birth dates after 2000-09-25 and on/before 2001-09-25."
+C20,openrouter:cohere/north-mini-code:free,traces-C.csv,openrouter:cohere/north-mini-code:free:C20,real,correct,1106090,1106090,
+C01,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C01,real,sql_rejected,,792800,SQL validator rejected a Markdown-fenced ```sql block rather than a bare SELECT statement (not_select); the SQL was never executed.
+C02,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C02,real,correct,590320,590320,
+C03,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C03,real,correct,936350,936350,
+C04,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C04,real,correct,2826250,2826250,
+C05,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C05,real,correct,38480,38480,
+C06,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C06,real,correct,0,0,
+C07,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C07,real,correct,13970,13970,
+C08,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C08,real,correct,605580,605580,
+C09,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C09,real,correct,487980,487980,
+C10,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C10,real,incorrect,119410,558980,"Age-at-order predicate is wrong: the year-difference 24 branch before the birthday describes age 23, whereas the required year-difference 26 branch before the birthday is missing."
+C11,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C11,real,correct,446690,446690,
+C12,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C12,real,correct,1666490,1666490,
+C13,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C13,real,correct,107740,107740,
+C14,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C14,real,correct,0,0,
+C15,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C15,real,incorrect,0,168680,"Contradictory month-day tests require birthday <= 09-25 and > 09-25 simultaneously, since both compared years have the same month-day; no customers match. Birth year is not checked."
+C16,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C16,real,incorrect,367050,376740,Off-by-one in 25-year-old birth-date boundaries: includes 2000-09-25 (already 26) but excludes 2001-09-25 (turns 25 that day). Required: 2000-09-25 < birth_date <= 2001-09-25.
+C17,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C17,real,incorrect,248490,258180,"Off-by-one in 25-year-old birth-date boundaries: includes 2000-09-25 (already 26) but excludes 2001-09-25 (turns 25 that day), even though period/product filters are present."
+C18,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C18,real,correct,62480,62480,
+C19,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C19,real,not_executed,,1990,"No executed result: both attempts were blocked by Groq HTTP 429 output-token-per-minute rate limiting. This is an access/quota failure, not an assessed SQL answer."
+C20,groq:qwen/qwen3.8-27b,traces-D.csv,groq:qwen/qwen3.8-27b:C20,real,correct,1106090,1106090,
+C01,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C01,real,correct,792800,792800,
+C02,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C02,real,incorrect,0,590320,Requires the exact birth date 2001-09-25 and orders only on 2026-09-25. The question requires all customers aged 25 that day and all their orders.
+C03,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C03,real,correct,936350,936350,
+C04,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C04,real,correct,2826250,2826250,
+C05,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C05,real,correct,38480,38480,
+C06,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C06,real,correct,0,0,
+C07,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C07,real,correct,13970,13970,
+C08,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C08,real,incorrect,25920,605580,"Restricts to customers born exactly 2001-09-24, i.e. only those turning 25 that day, instead of everyone aged 25 on the reference date."
+C09,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C09,real,incorrect,0,487980,Adds an order-date restriction to 2026-09-26. The question asks for all orders of customers aged 25 on that reference date.
+C10,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C10,real,incorrect,0,558980,Constructs malformed anniversary strings by appending -25-01-01 to a full birth date and includes a date interval with identical lower and upper bounds. It cannot identify age 25 at order time.
+C11,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C11,real,incorrect,0,446690,"Treats YYYYMMDD as an integer, multiplies by 10000, and adds 25*365 days. This is not valid calendar-date arithmetic and makes the age filter nonsensical."
+C12,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C12,real,correct,1666490,1666490,
+C13,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C13,real,correct,107740,107740,
+C14,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C14,real,correct,0,0,
+C15,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C15,real,incorrect,138920,168680,"Requires birth year 2001 and birthday on/before 09-25, omitting people born after 2000-09-25 who are also 25 on 2026-09-25."
+C16,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C16,real,incorrect,1367540,376740,"Checks whether the 25th birthday has happened but omits the upper age bound (26th birthday not yet reached), including older customers; it additionally excludes birth date 2001-09-25."
+C17,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C17,real,correct,258180,258180,
+C18,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C18,real,incorrect,39580,62480,"Requires calendar-year difference exactly 25 and birthday already passed, but omits customers with year difference 26 whose 26th birthday has not happened yet (still age 25)."
+C19,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C19,real,correct,1990,1990,
+C20,openrouter:dots-studio/dots-3-note-preview:free,traces-E.csv,openrouter:dots-studio/dots-3-note-preview:free:C20,real,correct,1106090,1106090,

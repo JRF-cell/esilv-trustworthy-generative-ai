@@ -1,6 +1,6 @@
 provider,model_id,public_index,index_date,index_source,paid_route_same_model,input_usd_per_million,output_usd_per_million,price_date,price_source,access_used,period_results,age_results,product_results,combined_results,trace_files,limits
-groq,openai/gpt-oss-120b,,,,,,,,,,,,,,,
-groq,openai/gpt-oss-20b,,,,,,,,,,,,,,,
-openrouter,inclusionai/ling-3.0-flash-sante:free,,,,,,,,,,,,,,,
-groq,qwen/qwen3.8-27b,,,,,,,,,,,,,,,
-openrouter,dots-studio/dots-3-note-preview:free,,,,,,,,,,,,,,,
+groq,openai/gpt-oss-120b,,,,,,,,,Groq Free API,6/6 correct (100.0%),5/5 correct (100.0%),4/4 correct (100.0%),5/5 correct (100.0%),traces-A-new.csv,"0 failed attempt(s), including 0 HTTP 429; 0 final SQL rejection(s); real calls only."
+groq,openai/gpt-oss-20b,,,,,,,,,Groq Free API,6/6 correct (100.0%),3/5 correct (60.0%),4/4 correct (100.0%),5/5 correct (100.0%),traces-B.csv,"0 failed attempt(s), including 0 HTTP 429; 0 final SQL rejection(s); real calls only."
+openrouter,cohere/north-mini-code:free,,,,,,,,,OpenRouter Free API,6/6 correct (100.0%),0/5 correct (0.0%),4/4 correct (100.0%),3/5 correct (60.0%),traces-C.csv,"0 failed attempt(s), including 0 HTTP 429; 0 final SQL rejection(s); real calls only."
+groq,qwen/qwen3.8-27b,,,,,,,,,Groq Free API,5/6 correct (83.3%),4/5 correct (80.0%),4/4 correct (100.0%),1/5 correct (20.0%),traces-D.csv,"4 failed attempt(s), including 4 HTTP 429; 1 final SQL rejection(s); real calls only."
+openrouter,dots-studio/dots-3-note-preview:free,,,,,,,,,OpenRouter Free API,6/6 correct (100.0%),0/5 correct (0.0%),4/4 correct (100.0%),2/5 correct (40.0%),traces-E.csv,"0 failed attempt(s), including 0 HTTP 429; 0 final SQL rejection(s); real calls only."
